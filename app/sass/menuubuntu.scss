@@ -1,0 +1,48 @@
+.nav-class{
+	overflow: auto;
+	background: #DD4814;
+	font-size: 15px;
+	margin:20px;
+	background-image:10px;
+
+	ul{
+		padding: auto;
+		margin: 0px;
+
+		li{
+			margin: 0;
+			padding: 0;
+			padding: 10px 10px;
+			display: inline-block;
+			text-align: center;
+			margin: 0 auto;
+			inline-block: center;
+			color: white;
+
+			a{
+				text-decoration: none;
+				color: white;
+			}
+		}
+
+		&.nav-left {
+			float: left;
+			padding: auto;
+		}
+
+		&.nav-right {
+			float: right;
+			margin-top: 20px;
+			margin-right: 10px;
+		}
+
+		.logo{
+			width: 100px;
+			height: 50px;
+			display: inline-block;
+			background-image: url(../images/sprites.png);
+			margin-bottom: 5px;
+			inline-block: center;
+		}
+	}
+}
